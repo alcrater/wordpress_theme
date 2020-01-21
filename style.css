@@ -1005,6 +1005,17 @@ object {
 .widget-area {
 	float: right;
 	overflow: hidden;
-	width: 25%;
+	width: 35%;
 	background-color: peachpuff;
+	padding:20px;
+}
+
+.content-area {
+    float: left;
+    overflow: hidden;
+    width: 65%;
+    background-color: 
+    darkkhaki;
+    height: auto;
+    padding: 20px;
 }
