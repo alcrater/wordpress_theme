@@ -639,10 +639,13 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
+	padding: 15px 0px 15px 75px;
+	background-color: rgb(139, 139, 139);
 	display: block;
 	float: left;
 	width: 100%;
 }
+
 
 .main-navigation ul {
 	display: none;
