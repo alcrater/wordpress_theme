@@ -685,6 +685,7 @@ a:hover, a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	padding: 0 10px 0 10px;
 }
 
 .main-navigation a {
@@ -989,6 +990,7 @@ object {
 }
 
 .site-description{
-	text-align: center;
+	text-align: left;
 	color:green;
+	font-weight: bold;
 }
