@@ -18,6 +18,7 @@
 	float: right;
 	overflow: hidden;
 	width: 25%;
+	background-color: dimgray;
 }
 .site-footer {
 	clear: both;
