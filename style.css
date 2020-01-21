@@ -1001,3 +1001,10 @@ object {
 		text-align: left;
 		padding: 20px;
 }
+
+.widget-area {
+	float: right;
+	overflow: hidden;
+	width: 25%;
+	background-color: peachpuff;
+}
