@@ -1010,12 +1010,12 @@ object {
 	padding:20px;
 }
 
-element {
+.site-main {
     clear: both;
-    width: 100%;
-    background-color: burlywood;
-    text-align: center;
-    padding: 30px;
+	background-color: aquamarine;
+    width: 65%;
+    float: left;
+    padding: 20px;
 }
 
 .site-footer {
