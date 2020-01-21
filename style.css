@@ -1019,11 +1019,9 @@ element {
 }
 
 .site-footer {
-    float: left;
     overflow: hidden;
-    width: 65%;
-    background-color: 
-    darkkhaki;
+    width: 100%;
+    background-color: darkkhaki;
     height: auto;
     padding: 20px;
 }
