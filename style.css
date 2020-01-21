@@ -639,7 +639,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
-	padding: 15px 0px 15px 75px;
+	padding: 5px 0px 15px 20px;
 	background-color: rgb(9, 1, 43);
 	display: block;
 	text-align:center;
@@ -648,7 +648,7 @@ a:hover, a:active {
 
 
 .main-navigation ul {
-		list-style: none;
+	list-style: none;
 	margin: 0;
 	display: inline;
 margin: 10px;
