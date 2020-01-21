@@ -10,14 +10,24 @@
 	float: left;
 	margin: 0 -25% 0 0;
 	width: 100%;
+	background-color:#D3D3D3;
+	height: inherit;
 }
 .site-main {
 	margin: 0 25% 0 0;
+background-color: #808080;
+padding-left: 125px;
+padding-right: 25px;
+padding-top: 25px;
 }
 .site-content .widget-area {
 	float: right;
-	overflow: hidden;
-	width: 25%;
+overflow: hidden;
+width: 25%;
+background-color: #525353;
+padding-left: 25px;
+padding-right: 125px;
+padding-top: 50px;
 }
 .site-footer {
 	clear: both;

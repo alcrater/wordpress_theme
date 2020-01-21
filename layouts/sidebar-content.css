@@ -15,9 +15,14 @@
 	margin: 0 0 0 25%;
 }
 .site-content .widget-area {
-	float: left;
-	overflow: hidden;
-	width: 25%;
+	float: right;
+overflow: hidden;
+width: 25%;
+background-color:
+#525353;
+padding-left: 25px;
+padding-right: 125px;
+padding-top: 50px;
 }
 .site-footer {
 	clear: both;
