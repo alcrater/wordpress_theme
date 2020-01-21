@@ -640,9 +640,9 @@ a:hover, a:active {
 .main-navigation {
 	clear: both;
 	padding: 15px 0px 15px 75px;
-	background-color: rgb(139, 139, 139);
+	background-color: rgb(9, 1, 43);
 	display: block;
-	float: left;
+	text-align:center;
 	width: 100%;
 }
 
