@@ -987,3 +987,8 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+.site-description{
+	text-align: center;
+	color:green;
+}
