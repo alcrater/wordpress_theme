@@ -1010,7 +1010,15 @@ object {
 	padding:20px;
 }
 
-.content-area {
+element {
+    clear: both;
+    width: 100%;
+    background-color: burlywood;
+    text-align: center;
+    padding: 30px;
+}
+
+.site-footer {
     float: left;
     overflow: hidden;
     width: 65%;
