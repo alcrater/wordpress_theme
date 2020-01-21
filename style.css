@@ -995,3 +995,9 @@ object {
 	color:green;
 	font-weight: bold;
 }
+
+.site-branding {
+		background: ivory;
+		text-align: left;
+		padding: 20px;
+}
