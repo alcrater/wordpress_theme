@@ -16,7 +16,7 @@ get_header();
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'OH NO!!! Where did the page go?', 'uppercase' ); ?></h1>
+					<h1 class="page-title" style="color:red;"><?php esc_html_e( 'OH NO!!! Where did the page go?', 'uppercase' ); ?></h1>
 					
 				</header><!-- .page-header -->
 				<div>
