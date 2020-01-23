@@ -19,7 +19,9 @@ get_header();
 					<h1 class="page-title"><?php esc_html_e( 'OH NO!!! Where did the page go?', 'uppercase' ); ?></h1>
 					
 				</header><!-- .page-header -->
-				<?php 'echo <html><img src="/assets/images/404.jpg" alt="404 error" /> </html> '?>
+				<div>
+            <img src="404.jpg" alt="myPic" />
+        </div>
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'uppercase' ); ?></p>
 
