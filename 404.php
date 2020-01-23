@@ -6,19 +6,7 @@
  *
  * @package uppercase
  */
-//If they have tried to access an invalid image file, return a 404 image
-if ( preg_match( '~\.(jpe?g|png|gif|svg|bmp)(\?.*)?$~i', $_SERVER['REQUEST_URI']))
-{
-        $image404 = locate_template('/assets/images/404.jpg');
-        if (!is_null($image404))
-        {
-                $fp = fopen($image404, 'rb');
-                header( 'Content-Type: /assets/image/404.jpg' );
-                header( 'Content-Length: ' . filesize($image404));
-                fpassthru($fp);
-        }
-        exit;
-}
+
 
 get_header();
 ?>
@@ -29,6 +17,7 @@ get_header();
 			<section class="error-404 not-found">
 				<header class="page-header">
 					<h1 class="page-title"><?php esc_html_e( 'OH NO!!! Where did the page go?', 'uppercase' ); ?></h1>
+					<?php 'echo <img src="/assets/images/404.jpg" alt="404 error" />' ?>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
