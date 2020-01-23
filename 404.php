@@ -20,7 +20,7 @@ get_header();
 					
 				</header><!-- .page-header -->
 				<div>
-            <img src="/acrater31/wordpress/wp-content/themes/wordpress_theme/assets/images/southpark-error-pages-reload.jpg" alt="myPic" />
+            <img src="/acrater31/wordpress/wp-content/themes/wordpress_theme/assets/images/funny-404-page.jpg" alt="myPic" />
         </div>
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'uppercase' ); ?></p>
