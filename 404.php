@@ -20,7 +20,7 @@ get_header();
 					
 				</header><!-- .page-header -->
 				<div>
-				<img class="what-ever" src="<?php bloginfo('template_directory'); ?> /assests/images/southpark-error-pages-reload.jpg" border="0" alt="Error Image">
+				<img class="what-ever" src="<?php bloginfo('template_directory'); ?> /assets/images/southpark-error-pages-reload.jpg" border="0" alt="Error Image">
             
         </div>
 				<div class="page-content">
