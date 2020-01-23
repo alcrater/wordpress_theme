@@ -20,7 +20,7 @@ get_header();
 					
 				</header><!-- .page-header -->
 				<div>
-            <img src="/assets/images/404.jpg" alt="myPic" />
+            <img src="/assets/images/southpark-error-pages-reload" alt="myPic" />
         </div>
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'uppercase' ); ?></p>
