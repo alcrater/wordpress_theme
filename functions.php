@@ -75,6 +75,20 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 		 */
 
 		add_theme_support( 'custom-header' );
+		
+		function get_header_image() {
+			$url = get_theme_mod( 'header_image', get_theme_support( 'custom-header', 'default-image' ) );
+		 
+			if ( 'remove-header' == $url ) {
+				return false;
+			}
+		 
+			if ( is_random_header_image() ) {
+				$url = get_random_header_image();
+			}
+		 
+			return esc_url_raw( set_url_scheme( $url ) );
+		}
 
 		function themename_custom_header_setup() {
 			$defaults = array(
