@@ -43,7 +43,7 @@
 				<p class="site-description"><?php echo $uppercase_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
-<img src="\assets\images\photo-of-beach-and-palm-trees-1457812.jpg" >
+<img src="/acrater31/wordpress/wp-content/themes/wordpress_theme\assets\images\photo-of-beach-and-palm-trees-1457812.jpg" >
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'uppercase' ); ?></button>
 			<?php
