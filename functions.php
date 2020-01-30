@@ -88,7 +88,7 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 				// Header image width (in pixels)
 				'width'             => 1000,
 				// Header image height (in pixels)
-				'height'            => 198,
+				'height'            => 250,
 				// Header image random rotation default
 				'random-default'        => false,
 				// Enable upload of image file in admin 
