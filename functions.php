@@ -88,7 +88,7 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 				// Header image width (in pixels)
 				'width'             => 1000,
 				// Header image height (in pixels)
-				'height'            => auto,
+				'height'            => 250,
 				// Header image random rotation default
 				'random-default'        => false,
 				// Enable upload of image file in admin 
@@ -105,8 +105,8 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 
 
 		add_theme_support( 'custom-logo', array(
-			'height'      => 250,
-			'width'       => 1000,
+			'height'      => auto,
+			'width'       => auto,
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
