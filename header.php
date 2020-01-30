@@ -41,10 +41,9 @@
 			if ( $uppercase_description || is_customize_preview() ) :
 				?>
 				<p class="site-description"><?php echo $uppercase_description; /* WPCS: xss ok. */ ?></p>
-				<img src="<?php header_image(); ?>"  >
 			<?php endif; ?>
 		</div><!-- .site-branding -->
-
+<img src="<?php header_image(); ?>"  >
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'uppercase' ); ?></button>
 			<?php
