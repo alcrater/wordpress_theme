@@ -80,7 +80,7 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 		function themename_custom_header_setup() {
 			$defaults = array(
 				// Default Header Image to display
-				'default-image'         => get_template_directory_uri() . '/images/headers/default.jpg',
+				'default-image'         => get_template_directory_uri() . '/acrater31/wordpress/wp-content/themes/wordpress_theme\assets\images\header.jpg',
 				// Display the header text along with the image
 				'header-text'           => false,
 				// Header text color default
