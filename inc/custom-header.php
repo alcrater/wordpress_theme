@@ -26,6 +26,9 @@ function uppercase_custom_header_setup() {
 		'wp-head-callback'       => 'uppercase_header_style',
 	) ) );
 }
+
+
+
 add_action( 'after_setup_theme', 'uppercase_custom_header_setup' );
 
 if ( ! function_exists( 'uppercase_header_style' ) ) :
