@@ -105,7 +105,7 @@ if ( ! function_exists( 'uppercase_setup' ) ) :
 
 		add_theme_support( 'custom-logo', array(
 			'height'      => 250,
-			'width'       => 250,
+			'width'       => 1000,
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
